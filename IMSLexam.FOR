@@ -58,9 +58,9 @@ C                                 Print the results
       WRITE (NOUT,'(A,I10.2)') ' IDAY   = ', IDAY
       WRITE (NOUT,'(A,I10.2)') ' MONTH  = ', MONTH
       WRITE (NOUT,'(A,I10.4)') ' IYEAR  = ', IYEAR
-      WRITE (NOUT,'(A,I10.2)') ' IHOUR  = ', IHOUR
-      WRITE (NOUT,'(A,I10.2)') ' MINUTE = ', MINUTE
-      WRITE (NOUT,'(A,I10.2)') ' ISEC   = ', ISEC
+     0WRITE (NOUT,'(A,I10.2)') ' IHOUR  = ', IHOUR
+     1, ' MINUTE = ', MINUTE
+     2, ' ISEC   = ', ISEC
       WRITE (NOUT,'(A,F10.9)') ' CPUtime= ', CPSEC ()  
       WRITE (NOUT,'(A,I10.2)') ' NOUT   = ', NOUT
 C     Close and discard file:
