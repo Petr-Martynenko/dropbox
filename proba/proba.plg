@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: proba - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\petr\AppData\Local\Temp\RSPBE1A.tmp" with contents
+[
+/compile_only /nologo /optimize:0 /warn:nofileopt 
+"C:\MSDEV\projects\IMSLexam\dropbox\IMSLexam.FOR"
+]
+Creating command line "link.exe kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"proba.pdb" /machine:I386 /out:"proba.exe"  .\IMSLexam.obj "
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\MSDEV\projects\IMSLexam\dropbox\IMSLexam.FOR
+C:\MSDEV\projects\IMSLexam\dropbox\IMSLexam.FOR(18) : Warning: Variable NUNIT is used before its value has been defined
+      OPEN (UNIT=NUNIT,FILE='CHECKERR.TxT')
+-----------------^
+C:\MSDEV\projects\IMSLexam\dropbox\IMSLexam.FOR(72) : Warning: Variable NOUT is used before its value has been defined
+      WRITE (NOUT,'(A)') choice
+-------------^
+C:\MSDEV\projects\IMSLexam\dropbox\IMSLexam.FOR(83) : Warning: Variable NOUT is used before its value has been defined
+      WRITE (NOUT,'(A)') choice
+-------------^
+Linking...
+
+
+
+<h3>Results</h3>
+proba.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
