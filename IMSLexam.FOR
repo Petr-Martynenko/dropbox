@@ -17,7 +17,7 @@ C      UMACH (-2, NUNIT)                       Write to the FILE='CHECKERR'
 C      UMACH (+3, NUNIT)                       Write to the console
       OPEN (UNIT=NUNIT,FILE='CHECKERR.TxT')
 C                                 Set Parameter NOUT
-	CALL UMACH (+3, NOUT)
+	CALL UMACH (-2, NOUT)
 C                                 Set Parameter N
       N = 1
       WRITE (NOUT,99991) IMACH(N)
